@@ -57,7 +57,23 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
+
+	<!-- TO DO: Add support for Maven WAR Plugin -->
+	<build>
+		<finalName>spring-security-demo</finalName>
+		
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<!-- Add Mavan cordinates (GAV) for: maven-war-plugin -->
+					 <groupId>org.apache.maven.plugins</groupId>
+					 <artifactId>maven-war-plugin</artifactId>
+					 <version>3.3.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
 
 </project>
