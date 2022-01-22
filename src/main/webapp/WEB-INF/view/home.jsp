@@ -22,17 +22,17 @@ Welcome to our company page!
 	
 	<hr>
 	
-	<security:authorize access="hasRole('ADMIN')">
+	<security:authorize access="hasRole('MANAGER')">
 	<p>
 	<a href="${pageContext.request.contextPath}/leaders">LeaderShip Meeting</a>
-	(only for Admin peeps)
+	(only for Leaders peeps)
 	</p>
 		</security:authorize>
 		
-			<security:authorize access="hasRole('MANAGER')">
+			<security:authorize access="hasRole('ADMIN')">
 		<p>
 	<a href="${pageContext.request.contextPath}/systems">IT Systems Meeting</a>
-	(only for Manager peeps)
+	(only for Admin peeps)
 	</p>
 		</security:authorize>
 <hr>
