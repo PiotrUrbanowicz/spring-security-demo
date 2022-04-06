@@ -1,9 +1,8 @@
 # spring-security-demo
-PRZEJDZI do second branche "02-base-security" aktualny projekt
 
 Spring security App(Maven project)
-- Users, Passwords and Roles
-- Adding Login Error Message
-- Cross Site Request Forgery (CSRF)
--  Restrict Access based on Roles
--  jeszcze ulepsze
+Aplikacja to strona logowania która w zależności od uprawnień użytkownika wyświetla mu treści do których jest upoważniony.
+ 
+URUCHOMIENIE PROJEKTU:
+- Pobierz projekt z githuba(z master branch) 
+- Uruchom projekt(Na serverze)
