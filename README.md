@@ -2,7 +2,6 @@
 
 Spring security App(Maven project)
 Aplikacja to strona logowania która w zależności od uprawnień użytkownika wyświetla mu treści do których jest upoważniony.
-
 https://drive.google.com/file/d/1bVeRcIn82ocd6EQk8Xug428bIQQIOjQN/view?usp=sharing
 
 UŻYTKOWNICY:
